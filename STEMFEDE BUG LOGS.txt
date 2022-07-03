@@ -1,0 +1,16 @@
+1. +++ list only chooses the first animal
+2. +++ 2nd level does not play audio
+3. +++ difficulty choice is set constantly in update
+4. +++ timer continues after first level and speeds up
+5. level name is out of bounds
+6. +++ show scores instead of level and chapter names on win screen
+7. +++ go to main menu after last level
+8. +++ animal info panels only show if that animal is present and move up if the others are not present
+9. +++ player needs to start in the middle
+10. +++ timer counts during the win screen
+11. +++ Menu names need to be black
+12. +++ Special level hint message on startup
+13. Can only shoot food for that level
+14. Add key name in animal info panels
+15. Add hints for each level in level manager (and to the level reset function)
+16. +++ Make win screen pass when any key is pressed

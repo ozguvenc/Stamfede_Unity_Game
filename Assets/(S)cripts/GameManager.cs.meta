@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: be122dbfb3e981c419bf4fe736bc28fd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreText: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - soundTrack: {fileID: 8300000, guid: 064fc5f6126cfc74bb65c8a1decbbda0, type: 3}
+  - projectileLaunch: {instanceID: 0}
+  - chickenEat: {instanceID: 0}
+  - cowEat: {instanceID: 0}
+  - horseEat: {instanceID: 0}
+  - chickenEscape: {instanceID: 0}
+  - cowEscape: {instanceID: 0}
+  - horseEscape: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

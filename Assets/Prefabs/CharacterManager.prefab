@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6808412829823790706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6808412829823790704}
+  - component: {fileID: 6808412829823790705}
+  m_Layer: 0
+  m_Name: CharacterManager
+  m_TagString: CharacterManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6808412829823790704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6808412829823790706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6808412829823790705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6808412829823790706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ff7ebb2348d324890dab3dd0f9d6aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSourceObject: {fileID: 0}
+  currentCharacterName: 
+  charactersArray: []
+  currentCharacterObject: {fileID: 0}
+  characterNameUI: {fileID: 0}
+  characterSpecialNameUI: {fileID: 0}
+  characterSpecialDescriptionUI: {fileID: 0}
+  playerNameInputUI: {fileID: 0}
+  playerNameInputPlaceholderUI: {fileID: 0}
+  playerName: 
+  speedAttribute: 0
+  accuracyAttribute: 0
+  strengthAttribute: 0
+  abilityAttribute: 
+  abilityDescription: 
+  characterIndex: 0
+  character1Stats:
+  - 2
+  - 3
+  - 1
+  - Soothing Call
+  - When Alisha calls them, all animals on the field stop and listen for 5 seconds.
+  character2Stats:
+  - 1
+  - 2
+  - 3
+  - The Shephard's Song
+  - Hungry animals leaving the field do not lose love for 5 seconds thanks to Wilbur's
+    song.
+  character3Stats:
+  - 3
+  - 1
+  - 2
+  - A Sense of Urgency
+  - Theda completes her chores twice as fast for the next 5 seconds.
+  currentCharacterStats:
+  - 
+  - 
+  - 
+  - 
+  - 
+  speedStars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  accuracyStars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  strengthStars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playerNameEntered: 0
